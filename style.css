@@ -1,0 +1,148 @@
+h1 {
+    
+}
+
+h3 {
+ color:rgb(4, 136, 106);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p a {
+
+    padding: 0.5rem;
+    background-color: rgb(10, 232, 248);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: #000000 0 2px 12px -1px;
+
+
+}
+
+/* ESTILOS GERAIS*/
+html, body, figure, div, input, h3,h2,h1, p, ul, nav, li, section, article, footer {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style:none;
+}
+
+/* BODY */
+body {
+    width: 100%;
+
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+/* HEADER */
+header {
+background-color: #45dbfc;
+
+
+}
+header .container{
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding top: 20px;
+
+}
+
+header .linha{
+    align-items: center;
+}
+header .coluna{}
+header .coluna-esquerda{
+    flex-basis: 30%;
+}
+header .coluna-direita{
+    flex-basis: 49%;
+}
+header .coluna figure{}
+header .coluna img{
+    border-radius: 100%;
+}
+header .coluna h2{
+    font-size: 1.5rem;
+}
+header .coluna ul{}
+header .coluna p{
+    font-size: 1rem;
+}
+header .coluna ul{
+    margin: 12px 0 0;
+}
+header .coluna ul li{
+    margin: 0px 0px 0px;
+}
+header .coluna ul li a{}
+
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px
+
+
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px
+
+}
+
+img {
+    border-radius: 100%;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.coluna {
+    flex-basis: 49%;
+    margin: -1px;
+
+
+}
+
+/* Página INICIAL */
+main {
+    margin: 6px;
+}
+main .container{}
+main. linha{}
+main .coluna-esquerda {}
+main .coluna-direita {}
+main .coluna section {
+    font-size: 0.9rem;
+    border: 1px solid #c6b9f7;
+    padding: 13px;
+    margin: 0 0 20px;
+}
+main .coluna section h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+}
+main .coluna section h3 {
+    font-size: 17px;
+    color: #305caf;
+    margin: 0px 0px 5px;
+} 
+main .coluna section p {}
+main .coluna section ul {}
+main .coluna section ul li{
+    font-size: 0.9rem;
+}
