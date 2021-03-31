@@ -81,38 +81,7 @@ header .coluna ul li a{
 
 }
 
-/*FOOTER*/
-footer {
-    background-color: #04133d;
-}
 
-
-footer .container{
-    padding: 20px;
-}
-footer nav ul li a{
-    color: white;
-}
-
-footer nav .info-contato li{
-    margin: 0 0 15px;
-}
-
-footer nav .redes-sociais{
-    border-top: 1px solid rgb(255 255 255 / 20%);
-    margin: 20px 0 50px;
-    padding: 50px 0 0;
-    text-align: center;
-}
-footer nav .redes-sociais li{
-    margin: 15px 28px;
-    text-align: center;
-    display: inline-block;
-}
-
-footer nav .redes-sociais li a img{
-    width: 40px;
-}
 
 img figure {
     border-radius: 100%;
@@ -156,4 +125,37 @@ main .coluna section p {}
 main .coluna section ul {}
 main .coluna section ul li{
     font-size: 0.9rem;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #04133d;
+}
+
+
+footer .container{
+    padding: 20px;
+}
+footer nav ul li a{
+    color: white;
+}
+
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
+
+footer nav .redes-sociais{
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
+}
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
 }
