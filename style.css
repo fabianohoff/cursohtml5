@@ -114,6 +114,7 @@ main .coluna section {
 }
 main .coluna section h2 {
     font-size: 18px;
+
     margin: 0 0 12px;
 }
 main .coluna section h3 {
@@ -158,4 +159,9 @@ footer nav .redes-sociais li{
 
 footer nav .redes-sociais li a img{
     width: 40px;
+}
+
+main .coluna section {
+    flex-direction: column;
+
 }
